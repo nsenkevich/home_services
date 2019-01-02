@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/dependency-injection": "^4.2",
+        "symfony/routing": "^4.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "HomeServices\\": "src"
+        },
+        "classmap": ["src"]
+   },
+    "require-dev": {
+    }
+}
